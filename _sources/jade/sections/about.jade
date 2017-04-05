@@ -1,7 +1,28 @@
+// lang vars
+case process.env.NODE_ENV
+  when 'ru'
+    - var header = 'Ускользнув от шумной городской суеты, наслаждайтесь:'
+    - var text_1 = '- вкуснейшим кофе отборных сортов'
+    - var text_2 = '- изысканным разнообразием блюд'
+    - var text_3 = '- превосходным кальяном'
+    - var text_4 = '- спокойной атмосферой для общения и бизнес-встреч'
+    - var button = 'Посмотреть видео'
+  when 'eng'
+    - var header = 'Ускользнув от шумной городской суеты, наслаждайтесь:'
+    - var text = 'Delicacy and harmonic sophistication – the best words to describe the restaurant «KikuMatsuri» modern design and lean Japanese minimalism create the unique interior.'
+    - var button = 'Video'
+  when 'kz'
+    - var header = 'Ускользнув от шумной городской суеты, наслаждайтесь:'
+    - var text = '«Kiku Matsuri»мейрамханасының сипаттамасына ізеттілік, талғампаздық сөздері әбден лайық, заманауи дизайн мен жапон минимализмі интерьерге көрік береді'
+    - var button = 'Бейне қарау'
+
 section#about
   a(name="about")
   .container
-    img(src="images/log.png").shape
-    h3 О ресторане
-    p Изысканность и гармоничная утонченность – слова, как нельзя лучше подходящие для описания ресторана «Kiku Matsuri». Современный дизайн и сдержанный японский минимализм создают уникальность интерьера.
-    a(href="https://www.youtube.com/embed/woVUvj8WeLA?autoplay=1" class="fancybox fancybox.iframe").video_link Посмотреть видео
+    .block
+      h3 #{header}
+      p #{text_1}
+      p #{text_2}
+      p #{text_3}
+      p #{text_4}
+    //a(href="https://www.youtube.com/embed/woVUvj8WeLA?autoplay=1" class="fancybox fancybox.iframe").video_link #{button}
