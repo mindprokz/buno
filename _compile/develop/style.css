@@ -117,34 +117,6 @@ body {
   #menu .wrap {
     position: relative;
     height: 100%; }
-  #menu .wrap::before {
-    content: ' ';
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    height: 100%;
-    width: calc((100vw - 1170px) / 2);
-    max-width: 360px;
-    background: url("images/pat_left.png") repeat-y top right; }
-    @media (min-width: 1000px) {
-      #menu .wrap::before {
-        display: block; } }
-  #menu .wrap::after {
-    content: ' ';
-    display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 10;
-    height: 100%;
-    width: calc((100vw - 1170px) / 2);
-    max-width: 360px;
-    background: url("images/pat_right.png") repeat-y top left; }
-    @media (min-width: 1000px) {
-      #menu .wrap::after {
-        display: block; } }
   @media (max-width: 480px) {
     #menu {
       width: 480px !important; } }
@@ -378,34 +350,6 @@ body {
 
 #main {
   position: relative; }
-  #main::before {
-    content: ' ';
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    height: 100%;
-    width: calc((100vw - 1170px) / 2);
-    max-width: 360px;
-    background: url("images/pat_left.png") repeat-y top right; }
-    @media (min-width: 1000px) {
-      #main::before {
-        display: block; } }
-  #main::after {
-    content: ' ';
-    display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 10;
-    height: 100%;
-    width: calc((100vw - 1170px) / 2);
-    max-width: 360px;
-    background: url("images/pat_right.png") repeat-y top left; }
-    @media (min-width: 1000px) {
-      #main::after {
-        display: block; } }
   #main picture {
     position: relative;
     width: 100%; }
@@ -427,34 +371,6 @@ body {
   padding-bottom: 50px;
   background: #3d8062;
   position: relative; }
-  #about::before {
-    content: ' ';
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    height: 100%;
-    width: calc((100vw - 1170px) / 2);
-    max-width: 360px;
-    background: url("images/pat_left.png") repeat-y top right; }
-    @media (min-width: 1000px) {
-      #about::before {
-        display: block; } }
-  #about::after {
-    content: ' ';
-    display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 10;
-    height: 100%;
-    width: calc((100vw - 1170px) / 2);
-    max-width: 360px;
-    background: url("images/pat_right.png") repeat-y top left; }
-    @media (min-width: 1000px) {
-      #about::after {
-        display: block; } }
   @media (min-width: 970px) {
     #about {
       padding-top: 70px;
@@ -501,34 +417,6 @@ body {
   background: #ededed;
   overflow: hidden;
   position: relative; }
-  #interior::before {
-    content: ' ';
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    height: 100%;
-    width: calc((100vw - 1170px) / 2);
-    max-width: 360px;
-    background: url("images/pat_left.png") repeat-y top right; }
-    @media (min-width: 1000px) {
-      #interior::before {
-        display: block; } }
-  #interior::after {
-    content: ' ';
-    display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 10;
-    height: 100%;
-    width: calc((100vw - 1170px) / 2);
-    max-width: 360px;
-    background: url("images/pat_right.png") repeat-y top left; }
-    @media (min-width: 1000px) {
-      #interior::after {
-        display: block; } }
   @media (min-width: 750px) {
     #interior {
       padding-bottom: 0;
@@ -602,34 +490,6 @@ body {
   padding-right: 15px;
   box-sizing: border-box;
   position: relative; }
-  #menu_rest::before {
-    content: ' ';
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    height: 100%;
-    width: calc((100vw - 1170px) / 2);
-    max-width: 360px;
-    background: url("images/pat_left.png") repeat-y top right; }
-    @media (min-width: 1000px) {
-      #menu_rest::before {
-        display: block; } }
-  #menu_rest::after {
-    content: ' ';
-    display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 10;
-    height: 100%;
-    width: calc((100vw - 1170px) / 2);
-    max-width: 360px;
-    background: url("images/pat_right.png") repeat-y top left; }
-    @media (min-width: 1000px) {
-      #menu_rest::after {
-        display: block; } }
   @media (min-width: 970px) {
     #menu_rest .container {
       width: 800px; } }
@@ -813,34 +673,6 @@ body {
   padding-bottom: 46px;
   text-align: center;
   position: relative; }
-  #review::before {
-    content: ' ';
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    height: 100%;
-    width: calc((100vw - 1170px) / 2);
-    max-width: 360px;
-    background: url("images/pat_left.png") repeat-y top right; }
-    @media (min-width: 1000px) {
-      #review::before {
-        display: block; } }
-  #review::after {
-    content: ' ';
-    display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 10;
-    height: 100%;
-    width: calc((100vw - 1170px) / 2);
-    max-width: 360px;
-    background: url("images/pat_right.png") repeat-y top left; }
-    @media (min-width: 1000px) {
-      #review::after {
-        display: block; } }
   #review h2 {
     color: #fff;
     font-size: 28px;

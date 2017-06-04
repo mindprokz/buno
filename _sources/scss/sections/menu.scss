@@ -12,39 +12,39 @@
     height: 100%;
   }
 
-  .wrap::before {
-    content: ' ';
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    height: 100%;
-    width: calc((100vw - 1170px) / 2);
-    max-width: 360px;
-    background: url('images/pat_left.png') repeat-y top right;
-
-    @media (min-width: 1000px) {
-      display: block;
-    }
-  }
-
-  .wrap::after {
-    content: ' ';
-    display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 10;
-    height: 100%;
-    width: calc((100vw - 1170px) / 2);
-    max-width: 360px;
-    background: url('images/pat_right.png') repeat-y top left;
-
-    @media (min-width: 1000px) {
-      display: block;
-    }
-  }
+  // .wrap::before {
+  //   content: ' ';
+  //   display: none;
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   z-index: 10;
+  //   height: 100%;
+  //   width: calc((100vw - 1170px) / 2);
+  //   max-width: 360px;
+  //   background: url('images/pat_left.png') repeat-y top right;
+  //
+  //   @media (min-width: 1000px) {
+  //     display: block;
+  //   }
+  // }
+  //
+  // .wrap::after {
+  //   content: ' ';
+  //   display: none;
+  //   position: absolute;
+  //   top: 0;
+  //   right: 0;
+  //   z-index: 10;
+  //   height: 100%;
+  //   width: calc((100vw - 1170px) / 2);
+  //   max-width: 360px;
+  //   background: url('images/pat_right.png') repeat-y top left;
+  //
+  //   @media (min-width: 1000px) {
+  //     display: block;
+  //   }
+  // }
 
   @media (max-width: 480px) {
     width: 480px !important;
